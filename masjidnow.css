@@ -1,0 +1,220 @@
+.masjidnow-container{
+  padding:2px;
+  padding-top:5px;
+  text-align:center;
+  max-width:400px;
+}
+
+.masjidnow-date{
+  font-size:14px;
+  font-weight:bold;
+}
+
+.masjidnow-date-text{
+  cursor: pointer;
+}
+
+.masjidnow-prev-day{
+  float:left;
+  cursor:pointer;
+  padding:10px;
+}
+
+.masjidnow-left-arrow{
+  width: 0;
+  height:0;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+  border-right:10px solid #DDD;
+}
+
+.masjidnow-next-day{
+  float:right;
+  cursor:pointer;
+  padding:10px;
+}
+
+.masjidnow-right-arrow{
+  width: 0;
+  height:0;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+  border-left:10px solid #DDD;
+}
+
+
+.masjidnow-masjid-name{
+  font-weight:bold;
+  font-size:11px;
+  padding:5px;
+}
+
+.masjidnow-iqamah-date{
+  font-size:11px;
+  padding:3px;
+  color:#555;
+}
+
+.masjidnow-salah-timings-table{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:90%;
+}
+
+.masjidnow-salah-timings-table td{
+  padding:7px;
+  padding-top:7px;
+  padding-bottom:7px;
+}
+
+.masjidnow-salah-timings-table th{
+  text-align:center;
+  font-size:11px;
+}
+
+.masjidnow-salah-timings-table .masjidnow-salah-name{
+  font-weight:bold;
+  text-align:left;
+}
+
+.masjidnow-salah-timings-table .masjidnow-salah-time-adhan{
+  text-align:center;
+  padding:4px;
+}
+
+.masjidnow-salah-timings-table .masjidnow-salah-time-iqamah{
+  text-align:center;
+  padding:4px;
+  font-weight:bold;
+}
+
+.masjidnow-daily-footer{
+  border-top:1px solid #EEE;
+  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:10px;
+  line-height:30px;
+  text-align:right;
+  color:#CCC;
+}
+
+.masjidnow-daily-footer .masjidnow-alt-instructions{
+  
+}
+
+.masjidnow-daily-footer .masjidnow-alt-icons{
+  display:inline-block;
+}
+
+.masjidnow-daily-footer .masjidnow-alt-icon{
+  display:inline-block;
+  margin-left:10px;
+}
+
+.masjidnow-daily-footer .masjidnow-alt-icons img{
+  border:none !important;
+  background:none !important;
+  box-shadow:none !important;
+  height:25px;
+}
+
+
+/**
+ * *************
+ * *******
+ *  THEMES 
+ * ********
+ * *************
+ * **/
+ 
+.masjidnow-theme-default.masjidnow-container
+{
+  color: #666;
+}
+
+
+.masjidnow-theme-blue.masjidnow-container{
+}
+
+.masjidnow-theme-blue .masjid-salah-row-alt{
+  background-color:#E0E6E6;
+}
+
+.masjidnow-theme-blue .masjidnow-prev-day{
+  border-right-color:#E0E6E6;
+}
+
+.masjidnow-theme-blue .masjidnow-next-day{
+  border-left-color:#E0E6E6;
+}
+
+/**
+ * *************
+ * *******
+ *  MONTHLY TIMINGS
+ * ********
+ * *************
+ * **/
+
+.masjidnow-monthly-container table{
+  width: 100%;
+}
+
+.masjidnow-monthly-container .masjidnow-month{
+  font-size:16px;
+  font-weight:bold;
+  text-align:center;
+}
+ 
+.masjidnow-monthly-container .masjidnow-combined-timings,
+.masjidnow-monthly-container .masjidnow-iqamah-timings,
+.masjidnow-monthly-container .masjidnow-adhan-timings{
+  text-align:center;
+}
+
+.masjidnow-monthly-container .masjidnow-combined-timings td,
+.masjidnow-monthly-container .masjidnow-combined-timings th,
+.masjidnow-monthly-container .masjidnow-iqamah-timings td,
+.masjidnow-monthly-container .masjidnow-iqamah-timings th,
+.masjidnow-monthly-container .masjidnow-adhan-timings td,
+.masjidnow-monthly-container .masjidnow-adhan-timings th{
+  padding:4px !important;
+  text-align:center;
+}
+ 
+ 
+.masjidnow-monthly-container .masjidnow-combined-timings tr:nth-child(even),
+.masjidnow-monthly-container .masjidnow-iqamah-timings tr:nth-child(even),
+.masjidnow-monthly-container .masjidnow-adhan-timings tr:nth-child(even){
+  background-color:#EEE;
+}
+
+.masjidnow-monthly-container .masjidnow-active{
+  background-color: rgb(255, 222, 139) !important;
+}
+
+.masjidnow-monthly-container .masjidnow-active td{
+  color:black;
+  font-weight: bold;
+}
+
+ 
+/**
+ * *************
+ * *******
+ *  MONTHLY TIMINGS THEMES
+ * ********
+ * *************
+ * **/
+ 
+.masjidnow-theme-blue .masjidnow-iqamah-timings tr:nth-child(even){
+  background-color:#E8EDFF;
+}
+
+.masjidnow-theme-blue .masjidnow-active{
+  background-color: #FFD591 !important;
+  font-weight:bold;
+}
